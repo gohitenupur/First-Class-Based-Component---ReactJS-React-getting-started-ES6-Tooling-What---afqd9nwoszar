@@ -13,7 +13,7 @@ class App extends React.Component {
   render(){
     return(
     <>
-      <p>Hello, my name is {name} <h1> and 'I am {age} years old and my enrollment no is {enrollmentNo}<h1></p>
+      <p>Hello, my name is <h1> {name} </h1> and 'I am <h1>{age}</h1> years old and my enrollment no is <h1>{enrollmentNo}</h1></p>
       <button onClick={() => {
             this.setState({
               age: this.state.age + 1,
